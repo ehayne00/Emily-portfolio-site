@@ -1,0 +1,95 @@
+.App {
+  text-align: center;
+}
+
+.Navlink-position {
+  padding-left: 18px;
+  
+}
+
+.card-space {
+  margin-top: 60px;
+}
+
+.card-width {
+  width: 70%;
+  margin-left: 16vw;
+  text-align: left;
+  font-size: 10px;
+}
+
+.Navlink-size {
+  font-size: 25px;
+  margin: 6px;
+}
+
+.title-width {
+  max-width: 230px;
+  font-size: 35px;
+
+}
+
+.my-photo {
+  position: absolute;
+  margin-top: 65px;
+  width: 170px;
+  height: 175px;
+  object-fit: cover;
+  border: 1px solid black;
+  border-radius: 82px;
+  left:85vw;
+}
+
+.text-1 {
+  font-family: 'Lora', serif;
+}
+
+.text-2 {
+  font-family: 'Julius Sans One', sans-serif;
+}
+
+.text-3 {
+  font-family: 'Fredericka the Great', cursive;
+}
+
+.text-4 {
+  font-family: 'Alegreya SC', serif;
+}
+.text-5 {
+  font-family: 'Londrina Sketch', cursive;
+}
+
+.Header {
+  position: absolute;
+  left:37vw;
+  font-size: 90px;
+  top: 2vw;
+}
+
+.video-size{
+  max-width: 50%;
+  border:1px solid #021a40;
+}
+
+.Nav {
+ display: flex;
+ flex-direction: column;
+ align-items: flex-start;
+ background-color: rgb(15, 84, 85);
+ padding-left: 20px;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
