@@ -1,14 +1,62 @@
+html {
+  background: url("https://artwallbazaar.com/wp-content/uploads/bending-shoot-leaf-pattern-wallpaper-mural-green-leaves-white-background.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
+}
+
 .App {
   text-align: center;
 }
 
+/* body {
+  background-color: rgb(226, 247, 216);
+} */
+
 .Navlink-position {
   padding-left: 18px;
-  
+  color: lightcoral;
+}
+
+.icon-size {
+  width: 70px;
+}
+
+.contact-page1 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.contact-page2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.squarish {
+border-radius: 5px;
+}
+
+.contact-text {
+  margin: 40px;
+  font-size: 20px;
+}
+
+.rounded {
+border-radius: 48px;
+}
+
+.map-size {
+  width: 500px;
+  height: 400px;
+  object-fit: cover;
 }
 
 .card-space {
   margin-top: 60px;
+  margin-bottom: 10px;
 }
 
 .card-width {
@@ -75,8 +123,10 @@
  display: flex;
  flex-direction: column;
  align-items: flex-start;
- background-color: rgb(15, 84, 85);
+ background-color: rgb(15, 84, 85, 0.9);
  padding-left: 20px;
+ padding-bottom: 3px;
+ 
 }
 
 .App-header {
