@@ -3,6 +3,25 @@ html {
   
 }
 
+.title-backing {
+  background-color: rgba(252, 252, 245, 0.9);
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+.text-backing {
+  background-color: rgba(252, 252, 245, 0.9);
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.text-backing2 {
+  background-color: rgba(252, 252, 245, 0.9);
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 20px;
+}
+
 .App {
   text-align: center;
 }
@@ -58,6 +77,17 @@ border-radius: 48px;
   font-size: 10px;
 }
 
+.card-width2 {
+  width: 90%;
+  margin-left: 20px;
+  text-align: left;
+  font-size: 20px;
+}
+
+.about-me-padding {
+  padding: 20px;
+}
+
 .Navlink-size {
   font-size: 25px;
   margin: 6px;
@@ -101,7 +131,7 @@ border-radius: 48px;
 
 .Header {
   position: absolute;
-  left:37vw;
+  left:38vw;
   font-size: 90px;
   top: 2vw;
 }

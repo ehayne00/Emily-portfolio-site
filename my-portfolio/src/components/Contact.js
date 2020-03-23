@@ -23,8 +23,8 @@ const Contact = () => {
         <img className="map-size" alt="oh no!" src={map} />
       </div>
       <div className="contact-text">
-        <h3 className="text-2">ehayne00@hotmail.com</h3>
-        <p className="text-1">
+        <h3 className="text-2 title-backing">ehayne00@hotmail.com</h3>
+        <p className="text-1 text-backing">
           <b>
             Born and raised in the London borough of Haringey, North-London. I
             drive as well as utilising public transport.
