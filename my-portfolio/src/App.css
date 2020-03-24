@@ -29,10 +29,22 @@ html {
 .Navlink-position {
   padding-left: 18px;
   color: lightcoral;
+  text-align: left;
+}
+
+.software-position {
+  position: absolute;
+  top: 135px;
+  left: 52px;
+  color: lightcoral;
 }
 
 .icon-size {
   width: 70px;
+}
+
+.icon-size:hover {
+  box-shadow: 0 0 45px #FF0000;
 }
 
 .contact-page1 {
@@ -89,8 +101,12 @@ border-radius: 48px;
 }
 
 .Navlink-size {
-  font-size: 25px;
-  margin: 6px;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.Navlink-size:hover {
+  text-shadow: 0 0 45px #FF0000;
 }
 
 .title-width {
@@ -101,13 +117,42 @@ border-radius: 48px;
 
 .my-photo {
   position: absolute;
-  margin-top: 65px;
+  margin-top: 45px;
   width: 170px;
   height: 175px;
   object-fit: cover;
   border: 1px solid black;
   border-radius: 82px;
   left:85vw;
+}
+
+.my-photo:hover {
+  -webkit-animation-name: spin;
+  -webkit-animation-duration: 4000ms;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-name: spin;
+  -moz-animation-duration: 4000ms;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-timing-function: linear;
+  -ms-animation-name: spin;
+  -ms-animation-duration: 4000ms;
+  -ms-animation-iteration-count: infinite;
+  -ms-animation-timing-function: linear;
+  -o-transition: rotate(3600deg);
+}
+
+@-moz-keyframes spin {
+  from { -moz-transform: rotate(0deg); }
+  to { -moz-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+  from { -webkit-transform: rotate(0deg); }
+  to { -webkit-transform: rotate(360deg); }
+}
+@keyframes spin {
+  from {transform:rotate(0deg);}
+  to {transform:rotate(360deg);}
 }
 
 .text-1 {
@@ -129,11 +174,38 @@ border-radius: 48px;
   font-family: 'Londrina Sketch', cursive;
 }
 
+.nav-links {
+  text-align: left;
+  font-size: 10px;
+  position: absolute;
+  top: 265px;
+  background-color: rgb(15, 84, 85, 0.9);
+  padding: 10px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  padding-right: 30px;
+  left: 0px;
+}
+
+.menuicon {
+  width: 50px;
+  /* margin-left: 30px; */
+  margin: 18px;
+  padding: 2px;
+
+}
+
+.menuicon:hover {
+  background-color: rgb(240, 128, 128, 0.7);
+  border-radius: 6px;
+  box-shadow: 0 0 45px #FF0000;
+}
+
 .Header {
   position: absolute;
   left:38vw;
   font-size: 90px;
-  top: 2vw;
+  top: 2px;
 }
 
 .video-size{
