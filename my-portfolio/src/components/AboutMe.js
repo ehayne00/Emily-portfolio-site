@@ -5,7 +5,7 @@ const AboutMe = () => {
     <div>
       <h2 className="Header text-5">ABOUT ME</h2>
       <div className="text-backing2 about-me-padding text-1">
-        <h2 className="about-me-padding">'Impulsive Explorer/Achiever'</h2>
+        <h2 className="about-me-padding">'Impulsive Accomplisher'</h2>
         <div className="card-width2">
           <p>My friends often laugh when I tell them what next.</p>
           <p>
