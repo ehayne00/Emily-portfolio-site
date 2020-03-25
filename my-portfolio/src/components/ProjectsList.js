@@ -6,7 +6,7 @@ const ProjectsList = () => {
     return(
         <div>
             <h2 className="Header text-5">PROJECTS</h2>
-           {projects.map(project => <ProjectCard project={project}/>)}
+           {projects.map(project => <ProjectCard project={project} key={project.id}/>)}
         </div>
     )
 }

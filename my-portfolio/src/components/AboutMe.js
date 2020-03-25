@@ -68,7 +68,84 @@ const AboutMe = () => {
             <li>Surf enthusiast</li>
           </ul>
           <h3>My proudest amateur photographic creations to date:</h3>
-          <div></div>
+          <div className="photo-outer-container"> 
+            <div className="photos-container">
+            <img className="photo-sizes" alt="oh no!" src="https://storage.cloud.google.com/my-pics-portfolio/photo1.jpg"/>
+            <img className="photo-sizes" alt="oh no!" src="https://storage.cloud.google.com/my-pics-portfolio/photo2.jpg"/>
+            <img className="photo-sizes" alt="oh no!" src="https://storage.cloud.google.com/my-pics-portfolio/photo3.jpg"/>
+            <img className="photo-sizes" alt="oh no!" src="https://storage.cloud.google.com/my-pics-portfolio/photo4.jpg"/>
+            <img className="photo-sizes" alt="oh no!" src="https://storage.cloud.google.com/my-pics-portfolio/photo5.jpg"/>
+            <img className="photo-sizes" alt="oh no!" src="https://storage.cloud.google.com/my-pics-portfolio/photo6.jpg"/>
+            <img className="photo-sizes" alt="oh no!" src="https://storage.cloud.google.com/my-pics-portfolio/photo7.jpg"/>
+            <img className="photo-sizes" alt="oh no!" src="https://storage.cloud.google.com/my-pics-portfolio/photo8.jpg"/>
+            </div>
+            <div className="photos-container">
+            <img className="photo-sizes" alt="oh no!" src="https://storage.cloud.google.com/my-pics-portfolio/photo9.jpg"/>
+            <img className="photo-sizes" alt="oh no!" src="https://storage.cloud.google.com/my-pics-portfolio/photo10.jpg"/>
+            <img className="photo-sizes" alt="oh no!" src="https://storage.cloud.google.com/my-pics-portfolio/photo11.jpg"/>
+            <img className="photo-sizes" alt="oh no!" src="https://storage.cloud.google.com/my-pics-portfolio/photo12.jpg"/>
+            <img className="photo-sizes" alt="oh no!" src="https://storage.cloud.google.com/my-pics-portfolio/photo13.jpg"/>
+            <img className="photo-sizes" alt="oh no!" src="https://storage.cloud.google.com/my-pics-portfolio/photo14.jpg"/>
+            <img className="photo-sizes" alt="oh no!" src="https://storage.cloud.google.com/my-pics-portfolio/photo15jpg"/>
+            </div>
+            <div className="photos-container">
+            <img className="photo-sizes" alt="oh no!" src="https://storage.cloud.google.com/my-pics-portfolio/photo16.jpg"/>
+            <img className="photo-sizes" alt="oh no!" src="https://storage.cloud.google.com/my-pics-portfolio/photo17.jpg"/>
+            <img className="photo-sizes" alt="oh no!" src="https://storage.cloud.google.com/my-pics-portfolio/photo18.jpg"/>
+            <img className="photo-sizes" alt="oh no!" src="https://storage.cloud.google.com/my-pics-portfolio/photo19.jpg"/>
+            <img className="photo-sizes" alt="oh no!" src="https://storage.cloud.google.com/my-pics-portfolio/photo20.jpg"/>
+            <img className="photo-sizes" alt="oh no!" src="https://storage.cloud.google.com/my-pics-portfolio/photo21.jpg"/>
+            <img className="photo-sizes" alt="oh no!" src="https://storage.cloud.google.com/my-pics-portfolio/photo22.jpg"/>
+            <img className="photo-sizes" alt="oh no!" src="https://storage.cloud.google.com/my-pics-portfolio/photo23.jpg"/>
+            <img className="photo-sizes" alt="oh no!" src="https://storage.cloud.google.com/my-pics-portfolio/photo24.jpg"/>
+            </div>
+            <div className="photos-container">
+            <img className="photo-sizes" alt="oh no!" src="https://storage.cloud.google.com/my-pics-portfolio/photo25.jpg"/>
+            <img className="photo-sizes" alt="oh no!" src="https://storage.cloud.google.com/my-pics-portfolio/photo26.jpg"/>
+            <img className="photo-sizes" alt="oh no!" src="https://storage.cloud.google.com/my-pics-portfolio/photo27.jpg"/>
+            <img className="photo-sizes" alt="oh no!" src="https://storage.cloud.google.com/my-pics-portfolio/photo28.jpg"/>
+            <img className="photo-sizes" alt="oh no!" src="https://storage.cloud.google.com/my-pics-portfolio/photo29.jpg"/>
+            <img className="photo-sizes" alt="oh no!" src="https://storage.cloud.google.com/my-pics-portfolio/photo30.jpg"/>
+            <img className="photo-sizes" alt="oh no!" src="https://storage.cloud.google.com/my-pics-portfolio/photo31.jpg"/>
+            </div>
+            <div className="photos-container">
+            <img className="photo-sizes" alt="oh no!" src="https://storage.cloud.google.com/my-pics-portfolio/photo32.jpg"/>
+            <img className="photo-sizes" alt="oh no!" src="https://storage.cloud.google.com/my-pics-portfolio/photo33.jpg"/>
+            <img className="photo-sizes" alt="oh no!" src="https://storage.cloud.google.com/my-pics-portfolio/photo34.jpg"/>
+            <img className="photo-sizes" alt="oh no!" src="https://storage.cloud.google.com/my-pics-portfolio/photo35.jpg"/>
+            <img className="photo-sizes" alt="oh no!" src="https://storage.cloud.google.com/my-pics-portfolio/photo36.jpg"/>
+            <img className="photo-sizes" alt="oh no!" src="https://storage.cloud.google.com/my-pics-portfolio/photo37.jpg"/>
+            <img className="photo-sizes" alt="oh no!" src="https://storage.cloud.google.com/my-pics-portfolio/photo38.jpg"/>
+            <img className="photo-sizes" alt="oh no!" src="https://storage.cloud.google.com/my-pics-portfolio/photo39.jpg"/>
+            </div>
+            <div className="photos-container">
+            <img className="photo-sizes" alt="oh no!" src="https://storage.cloud.google.com/my-pics-portfolio/photo40.jpg"/>
+            <img className="photo-sizes" alt="oh no!" src="https://storage.cloud.google.com/my-pics-portfolio/photo41.jpg"/>
+            <img className="photo-sizes" alt="oh no!" src="https://storage.cloud.google.com/my-pics-portfolio/photo42.jpg"/>
+            <img className="photo-sizes" alt="oh no!" src="https://storage.cloud.google.com/my-pics-portfolio/photo43.jpg"/>
+            <img className="photo-sizes" alt="oh no!" src="https://storage.cloud.google.com/my-pics-portfolio/photo44.jpg"/>
+            <img className="photo-sizes" alt="oh no!" src="https://storage.cloud.google.com/my-pics-portfolio/photo45.jpg"/>
+            <img className="photo-sizes" alt="oh no!" src="https://storage.cloud.google.com/my-pics-portfolio/photo46.jpg"/>
+            <img className="photo-sizes" alt="oh no!" src="https://storage.cloud.google.com/my-pics-portfolio/photo47.jpg"/>
+            </div>
+            <div className="photos-container">
+            <img className="photo-sizes" alt="oh no!" src="https://storage.cloud.google.com/my-pics-portfolio/photo48.jpg"/>
+            <img className="photo-sizes" alt="oh no!" src="https://storage.cloud.google.com/my-pics-portfolio/photo49.jpg"/>
+            <img className="photo-sizes" alt="oh no!" src="https://storage.cloud.google.com/my-pics-portfolio/photo50.jpg"/>
+            <img className="photo-sizes" alt="oh no!" src="https://storage.cloud.google.com/my-pics-portfolio/photo51.jpg"/>
+            <img className="photo-sizes" alt="oh no!" src="https://storage.cloud.google.com/my-pics-portfolio/photo52.jpg"/>
+            <img className="photo-sizes" alt="oh no!" src="https://storage.cloud.google.com/my-pics-portfolio/photo53.jpg"/>
+            </div>
+            <img className="photo-sizes" alt="oh no!" src="https://storage.cloud.google.com/my-pics-portfolio/photo54.jpg"/>
+            <img className="photo-sizes" alt="oh no!" src="https://storage.cloud.google.com/my-pics-portfolio/photo55.jpg"/>
+            <img className="photo-sizes" alt="oh no!" src="https://storage.cloud.google.com/my-pics-portfolio/photo56.jpg"/>
+            <img className="photo-sizes" alt="oh no!" src="https://storage.cloud.google.com/my-pics-portfolio/photo57.jpg"/>
+            <img className="photo-sizes" alt="oh no!" src="https://storage.cloud.google.com/my-pics-portfolio/photo58.jpg"/>
+            <img className="photo-sizes" alt="oh no!" src="https://storage.cloud.google.com/my-pics-portfolio/photo59.jpg"/>
+            <img className="photo-sizes" alt="oh no!" src="https://storage.cloud.google.com/my-pics-portfolio/photo60.jpg"/>
+            <img className="photo-sizes" alt="oh no!" src="https://storage.cloud.google.com/my-pics-portfolio/photo61.jpg"/>
+            
+          </div>
         </div>
       </div>
     </div>
