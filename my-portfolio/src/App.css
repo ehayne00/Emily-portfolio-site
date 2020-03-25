@@ -3,15 +3,18 @@ html {
   
 }
 
+.project-title {
+  font-size: 40px;
+}
+
 .photo-sizes {
   height: 90px;
-  /* margin: 5px; */
 }
 
 .photo-sizes:hover {
   position: sticky;
   margin: -50;
-  width: 180px;
+  width: 210px;
   height: auto;
 }
 
@@ -25,13 +28,41 @@ html {
 }
 
 .photo-outer-container {
-  margin-bottom: 200px;
+  margin-bottom: 285px;
+}
+.end-size {
+  font-size: 150%;
+}
+
+.end-size2 {
+  font-size: 200%;
+}
+.underline-size {
+  opacity: 0.8;
+  width: 40%;
+}
+
+.underline-size2 {
+  opacity: 0.8;
+  width: 8%;
+}
+
+.end-div{
+  position: absolute;
+  left: 42%;
+ bottom: -2255px;
+  text-align: center;
+}
+
+.end-div2{
+  padding-top: 50px;
+  text-align: center;
 }
 
 .title-backing {
   background-color: rgba(252, 252, 245, 0.9);
-  margin-left: 30%;
-  margin-right: 30%;
+  margin-left: 35%;
+  margin-right: 35%;
 }
 
 .text-backing {
@@ -40,11 +71,17 @@ html {
   margin-right: 20%;
 }
 
+.project-text {
+  font-size: 20px;
+}
+
 .text-backing2 {
   background-color: rgba(252, 252, 245, 0.9);
   margin-left: 10%;
   margin-right: 10%;
   margin-top: 20px;
+  padding-top:1px;
+  padding-bottom: 30px;
 }
 
 .App {
@@ -109,7 +146,8 @@ border-radius: 48px;
 
 .card-width {
   width: 70%;
-  margin-left: 16vw;
+  padding-top: 20px;
+  margin-left: 12vw;
   text-align: left;
   font-size: 10px;
 }
@@ -261,4 +299,1694 @@ border-radius: 48px;
 
 .App-link {
   color: #61dafb;
+}
+
+@media (max-width: 1180px) {
+  .end-div{
+    position: absolute;
+    left: 42%;
+   bottom: -2350px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 1030px) {
+  .project-title {
+    font-size: 40px;
+  }
+  
+  .photo-sizes {
+    height: 90px;
+  }
+  
+  .photo-sizes:hover {
+    position: sticky;
+    margin: -50;
+    width: 210px;
+    height: auto;
+  }
+  
+  .photos-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 110%;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    
+  }
+  
+  .photo-outer-container {
+    margin-bottom: 285px;
+  }
+  .end-size {
+    font-size: 150%;
+  }
+  
+  .end-size2 {
+    font-size: 200%;
+  }
+  .underline-size {
+    opacity: 0.8;
+    width: 40%;
+  }
+  
+  .underline-size2 {
+    opacity: 0.8;
+    width: 8%;
+  }
+  
+  .end-div{
+    position: absolute;
+    left: 42%;
+   bottom: -1570px;
+    text-align: center;
+  }
+  
+  .end-div2{
+    padding-top: 50px;
+    text-align: center;
+  }
+  
+  .title-backing {
+    background-color: rgba(252, 252, 245, 0.9);
+    margin-left: 35%;
+    margin-right: 35%;
+  }
+  
+  .text-backing {
+    background-color: rgba(252, 252, 245, 0.9);
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+  
+  .project-text {
+    font-size: 20px;
+  }
+  
+  .text-backing2 {
+    background-color: rgba(252, 252, 245, 0.9);
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 20px;
+    padding-top:1px;
+    padding-bottom: 30px;
+  }
+  
+  .App {
+    text-align: center;
+  }
+  
+  .Navlink-position {
+    padding-left: 18px;
+    color: lightcoral;
+    text-align: left;
+  }
+  
+  .software-position {
+    position: absolute;
+    top: 135px;
+    left: 52px;
+    color: lightcoral;
+  }
+  
+  .icon-size {
+    width: 70px;
+  }
+  
+  .icon-size:hover {
+    box-shadow: 0 0 45px #FF0000;
+  }
+  
+  .contact-page1 {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .contact-page2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  
+  .squarish {
+  border-radius: 5px;
+  }
+  
+  .contact-text {
+    margin: 40px;
+    font-size: 20px;
+  }
+  
+  .rounded {
+  border-radius: 48px;
+  }
+  
+  .map-size {
+    width: 500px;
+    height: 400px;
+    object-fit: cover;
+  }
+  
+  .card-space {
+    margin-top: 60px;
+    margin-bottom: 10px;
+  }
+  
+  .card-width {
+    width: 70%;
+    padding-top: 20px;
+    margin-left: 12vw;
+    text-align: left;
+    font-size: 10px;
+  }
+  
+  .card-width2 {
+    width: 90%;
+    margin-left: 20px;
+    text-align: left;
+    font-size: 20px;
+  }
+  
+  .about-me-padding {
+    padding: 20px;
+  }
+  
+  .Navlink-size {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+  
+  .Navlink-size:hover {
+    text-shadow: 0 0 45px #FF0000;
+  }
+  
+  .title-width {
+    max-width: 230px;
+    font-size: 35px;
+  
+  }
+  
+  .my-photo {
+    position: absolute;
+    margin-top: 45px;
+    width: 170px;
+    height: 175px;
+    object-fit: cover;
+    border: 1px solid black;
+    border-radius: 82px;
+    left:82vw;
+  }
+  
+  .nav-links {
+    text-align: left;
+    font-size: 10px;
+    position: absolute;
+    top: 264px;
+    background-color: rgb(15, 84, 85, 0.9);
+    padding: 10px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 30px;
+    left: 0px;
+  }
+  
+  .menuicon {
+    width: 50px;
+    /* margin-left: 30px; */
+    margin: 18px;
+    padding: 2px;
+  
+  }
+  
+  .menuicon:hover {
+    background-color: rgb(240, 128, 128, 0.7);
+    border-radius: 6px;
+    box-shadow: 0 0 45px #FF0000;
+  }
+  
+  .Header {
+    position: absolute;
+    left:35vw;
+    font-size: 90px;
+    top: 2px;
+  }
+  
+  .video-size{
+    max-width: 50%;
+    border:1px solid #021a40;
+  }
+  
+  .Nav {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   background-color: rgb(15, 84, 85, 0.9);
+   padding-left: 20px;
+   padding-bottom: 3px;
+   
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+}
+
+@media (max-width: 770px) {
+  .project-title {
+    font-size: 40px;
+  }
+  
+  .photo-sizes {
+    height: 120px;
+  }
+  
+  .photos-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 110%;
+    justify-content: space-evenly;
+    margin: 0px;
+    
+  }
+  
+  .photo-outer-container {
+    margin-bottom: 285px;
+  }
+  .end-size {
+    font-size: 150%;
+  }
+  
+  .end-size2 {
+    font-size: 200%;
+  }
+  .underline-size {
+    opacity: 0.8;
+    width: 40%;
+  }
+  
+  .underline-size2 {
+    opacity: 0.8;
+    width: 8%;
+  }
+  
+  .end-div{
+    position: absolute;
+    left: 38%;
+    bottom: -3200px;
+    text-align: center;
+  }
+  
+  .end-div2{
+    padding-top: 50px;
+    text-align: center;
+  }
+  
+  .title-backing {
+    background-color: rgba(252, 252, 245, 0.9);
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+  
+  .text-backing {
+    background-color: rgba(252, 252, 245, 0.9);
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+  
+  .project-text {
+    font-size: 20px;
+  }
+  
+  .text-backing2 {
+    background-color: rgba(252, 252, 245, 0.9);
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 20px;
+    padding-top:1px;
+    padding-bottom: 30px;
+  }
+  
+  .App {
+    text-align: center;
+  }
+  
+  .Navlink-position {
+    padding-left: 18px;
+    color: lightcoral;
+    text-align: left;
+  }
+  
+  .software-position {
+    font-size: 18px;
+    position: absolute;
+    top: 90px;
+    left: 25px;
+    color: lightcoral;
+  }
+  
+  .icon-size {
+    width: 70px;
+  }
+  
+  .icon-size:hover {
+    box-shadow: 0 0 45px #FF0000;
+  }
+  
+  .contact-page1 {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .contact-page2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  
+  .squarish {
+  border-radius: 5px;
+  }
+  
+  .contact-text {
+    margin: 40px;
+    font-size: 20px;
+  }
+  
+  .rounded {
+  border-radius: 48px;
+  }
+  
+  .map-size {
+    width: 500px;
+    height: 400px;
+    object-fit: cover;
+  }
+  
+  .card-space {
+    margin-top: 60px;
+    margin-bottom: 10px;
+  }
+  
+  .card-width {
+    width: 70%;
+    padding-top: 20px;
+    margin-left: 12vw;
+    text-align: left;
+    font-size: 10px;
+  }
+  
+  .card-width2 {
+    width: 90%;
+    margin-left: 20px;
+    text-align: left;
+    font-size: 20px;
+  }
+  
+  .about-me-padding {
+    padding: 20px;
+  }
+  
+  .Navlink-size {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+  
+  .Navlink-size:hover {
+    text-shadow: 0 0 45px #FF0000;
+  }
+  
+  .title-width {
+    max-width: 230px;
+    font-size: 25px;
+  
+  }
+  
+  .my-photo {
+    position: absolute;
+    margin-top: 42px;
+    width: 120px;
+    height: 130px;
+    object-fit: cover;
+    border: 1px solid black;
+    border-radius: 80px;
+    left:82vw;
+  }
+  
+  .nav-links {
+    text-align: left;
+    font-size: 10px;
+    position: absolute;
+    top: 209px;
+    background-color: rgb(15, 84, 85, 0.9);
+    padding: 10px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 30px;
+    left: 0px;
+  }
+  
+  .menuicon {
+    width: 40px;
+    /* margin-left: 30px; */
+    margin: 18px;
+    padding: 2px;
+    margin-left: 20px;
+    /* padding-left:2px; */
+  
+  }
+  
+  .menuicon:hover {
+    background-color: rgb(240, 128, 128, 0.7);
+    border-radius: 6px;
+    box-shadow: 0 0 45px #FF0000;
+  }
+  
+  .Header {
+    position: absolute;
+    left:33vw;
+    font-size: 75px;
+    top: 4px;
+  }
+  
+  .video-size{
+    max-width: 70%;
+    border:1px solid #021a40;
+  }
+  
+  .Nav {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   background-color: rgb(15, 84, 85, 0.9);
+   padding-left: 0px;
+   padding-bottom: 3px;
+   
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+}
+
+@media (max-width: 415px) {
+  .project-title {
+    font-size: 40px;
+  }
+  
+  .photo-sizes {
+    height: 120px;
+  }
+  
+  .photos-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+    margin: 0px;
+    
+  }
+  
+  .photo-outer-container {
+    margin-bottom: 285px;
+  }
+  .end-size {
+    font-size: 150%;
+  }
+  
+  .end-size2 {
+    font-size: 200%;
+  }
+  .underline-size {
+    opacity: 0.8;
+    width: 40%;
+  }
+  
+  .underline-size2 {
+    opacity: 0.8;
+    width: 80px;
+  }
+  
+  .end-div{
+    position: absolute;
+    left: 28%;
+    bottom: -6550px;
+    text-align: center;
+  }
+  
+  .end-div2{
+    padding-top: 50px;
+    text-align: center;
+  }
+  
+  .title-backing {
+    background-color: rgba(252, 252, 245, 0.9);
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  
+  .text-backing {
+    background-color: rgba(252, 252, 245, 0.9);
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  
+  .project-text {
+    font-size: 18px;
+  }
+  
+  .text-backing2 {
+    background-color: rgba(252, 252, 245, 0.9);
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 20px;
+    padding-top:1px;
+    padding-bottom: 30px;
+  }
+  
+  .App {
+    text-align: center;
+  }
+  
+  .Navlink-position {
+    padding-left: 18px;
+    color: lightcoral;
+    text-align: left;
+  }
+  
+  .software-position {
+    font-size: 11px;
+    position: absolute;
+    top: 52px;
+    left: 8px;
+    color: lightcoral;
+  }
+  
+  .icon-size {
+    width: 50px;
+  }
+  
+  .icon-size:hover {
+    box-shadow: 0 0 45px #FF0000;
+  }
+  
+  .contact-page1 {
+    margin-top:20px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .contact-page2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  
+  .squarish {
+  border-radius: 5px;
+  }
+  
+  .contact-text {
+    margin: 40px;
+    font-size: 20px;
+  }
+  
+  .rounded {
+  border-radius: 48px;
+  }
+  
+  .map-size {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .card-space {
+    margin-top: 60px;
+    margin-bottom: 10px;
+  }
+  
+  .card-width {
+    width: 70%;
+    padding-top: 20px;
+    margin-left: 12vw;
+    text-align: left;
+    font-size: 10px;
+  }
+  
+  .card-width2 {
+    width: 90%;
+    margin-left: 20px;
+    text-align: left;
+    font-size: 20px;
+  }
+  
+  .about-me-padding {
+    padding: 5px;
+  }
+  
+  .Navlink-size {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+  
+  .Navlink-size:hover {
+    text-shadow: 0 0 45px #FF0000;
+  }
+  
+  .title-width {
+    max-width: 140px;
+    font-size: 15px;
+  
+  }
+
+  .title-width2 {
+    max-width: 100px;
+  
+  }
+  
+  .my-photo {
+    position: absolute;
+    margin-top: 20px;
+    width: 85px;
+    height: 100px;
+    object-fit: cover;
+    border: 1px solid black;
+    border-radius: 150px;
+    left:76vw;
+  }
+  
+  .nav-links {
+    text-align: left;
+    font-size: 10px;
+    position: absolute;
+    top: 146px;
+    background-color: rgb(15, 84, 85, 0.9);
+    padding: 10px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 30px;
+    left: 0px;
+  }
+  
+  .menuicon {
+    width: 30px;
+    /* margin-left: 30px; */
+    margin: 16px;
+    padding: 2px;
+    margin-left: 22px;
+    margin-top: 20px;
+    /* padding-left:2px; */
+  
+  }
+  
+  .menuicon:hover {
+    background-color: rgb(240, 128, 128, 0.7);
+    border-radius: 6px;
+    box-shadow: 0 0 45px #FF0000;
+  }
+  
+  .Header {
+    position: absolute;
+    left:30vw;
+    font-size: 45px;
+    top: 7px;
+  }
+  
+  .video-size{
+    max-width: 100%;
+    border:1px solid #021a40;
+  }
+  
+  .Nav {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   background-color: rgb(15, 84, 85, 0.9);
+   margin-left: -10px;
+   padding-bottom: 3px;
+   
+  }
+  
+
+}
+
+@media (max-width: 411px) {
+  .project-title {
+    font-size: 40px;
+  }
+  
+  .photo-sizes {
+    height: 120px;
+  }
+  
+  .photos-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+    margin: 0px;
+    
+  }
+  
+  .photo-outer-container {
+    margin-bottom: 285px;
+  }
+  .end-size {
+    font-size: 150%;
+  }
+  
+  .end-size2 {
+    font-size: 200%;
+  }
+  .underline-size {
+    opacity: 0.8;
+    width: 40%;
+  }
+  
+  .underline-size2 {
+    opacity: 0.8;
+    width: 80px;
+  }
+  
+  .end-div{
+    position: absolute;
+    left: 28%;
+    bottom: -7150px;
+    text-align: center;
+  }
+  
+  .end-div2{
+    padding-top: 50px;
+    text-align: center;
+  }
+  
+  .title-backing {
+    background-color: rgba(252, 252, 245, 0.9);
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  
+  .text-backing {
+    background-color: rgba(252, 252, 245, 0.9);
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  
+  .project-text {
+    font-size: 18px;
+  }
+  
+  .text-backing2 {
+    background-color: rgba(252, 252, 245, 0.9);
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 20px;
+    padding-top:1px;
+    padding-bottom: 30px;
+  }
+  
+  .App {
+    text-align: center;
+  }
+  
+  .Navlink-position {
+    padding-left: 18px;
+    color: lightcoral;
+    text-align: left;
+  }
+  
+  .software-position {
+    font-size: 11px;
+    position: absolute;
+    top: 52px;
+    left: 8px;
+    color: lightcoral;
+  }
+  
+  .icon-size {
+    width: 50px;
+  }
+  
+  .icon-size:hover {
+    box-shadow: 0 0 45px #FF0000;
+  }
+  
+  .contact-page1 {
+    margin-top:20px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .contact-page2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  
+  .squarish {
+  border-radius: 5px;
+  }
+  
+  .contact-text {
+    margin: 40px;
+    font-size: 20px;
+  }
+  
+  .rounded {
+  border-radius: 48px;
+  }
+  
+  .map-size {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .card-space {
+    margin-top: 60px;
+    margin-bottom: 10px;
+  }
+  
+  .card-width {
+    width: 70%;
+    padding-top: 20px;
+    margin-left: 12vw;
+    text-align: left;
+    font-size: 10px;
+  }
+  
+  .card-width2 {
+    width: 90%;
+    margin-left: 20px;
+    text-align: left;
+    font-size: 20px;
+  }
+  
+  .about-me-padding {
+    padding: 5px;
+  }
+  
+  .Navlink-size {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+  
+  .Navlink-size:hover {
+    text-shadow: 0 0 45px #FF0000;
+  }
+  
+  .title-width {
+    max-width: 140px;
+    font-size: 15px;
+  
+  }
+
+  .title-width2 {
+    max-width: 100px;
+  
+  }
+  
+  .my-photo {
+    position: absolute;
+    margin-top: 20px;
+    width: 85px;
+    height: 100px;
+    object-fit: cover;
+    border: 1px solid black;
+    border-radius: 150px;
+    left:76vw;
+  }
+  
+  .nav-links {
+    text-align: left;
+    font-size: 10px;
+    position: absolute;
+    top: 146px;
+    background-color: rgb(15, 84, 85, 0.9);
+    padding: 10px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 30px;
+    left: 0px;
+  }
+  
+  .menuicon {
+    width: 30px;
+    /* margin-left: 30px; */
+    margin: 16px;
+    padding: 2px;
+    margin-left: 22px;
+    margin-top: 20px;
+    /* padding-left:2px; */
+  
+  }
+  
+  .menuicon:hover {
+    background-color: rgb(240, 128, 128, 0.7);
+    border-radius: 6px;
+    box-shadow: 0 0 45px #FF0000;
+  }
+  
+  .Header {
+    position: absolute;
+    left:30vw;
+    font-size: 45px;
+    top: 7px;
+  }
+  
+  .video-size{
+    max-width: 100%;
+    border:1px solid #021a40;
+  }
+  
+  .Nav {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   background-color: rgb(15, 84, 85, 0.9);
+   margin-left: -10px;
+   padding-bottom: 3px;
+   
+  }
+  
+  
+
+}
+
+@media (max-width: 375px) {
+  .project-title {
+    font-size: 40px;
+  }
+  
+  .photo-sizes {
+    height: 120px;
+  }
+  
+  .photos-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+    margin: 0px;
+    
+  }
+  
+  .photo-outer-container {
+    margin-bottom: 285px;
+  }
+  .end-size {
+    font-size: 150%;
+  }
+  
+  .end-size2 {
+    font-size: 200%;
+  }
+  .underline-size {
+    opacity: 0.8;
+    width: 40%;
+  }
+  
+  .underline-size2 {
+    opacity: 0.8;
+    width: 80px;
+  }
+  
+  .end-div{
+    position: absolute;
+    left: 26%;
+    bottom: -7950px;
+    text-align: center;
+  }
+  
+  .end-div2{
+    padding-top: 50px;
+    text-align: center;
+  }
+  
+  .title-backing {
+    background-color: rgba(252, 252, 245, 0.9);
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+  
+  .text-backing {
+    background-color: rgba(252, 252, 245, 0.9);
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+  
+  .project-text {
+    font-size: 18px;
+  }
+  
+  .text-backing2 {
+    background-color: rgba(252, 252, 245, 0.9);
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 20px;
+    padding-top:1px;
+    padding-bottom: 30px;
+  }
+  
+  .App {
+    text-align: center;
+  }
+  
+  .Navlink-position {
+    padding-left: 18px;
+    color: lightcoral;
+    text-align: left;
+  }
+  
+  .software-position {
+    font-size: 11px;
+    position: absolute;
+    top: 52px;
+    left: 8px;
+    color: lightcoral;
+  }
+  
+  .icon-size {
+    width: 50px;
+  }
+  
+  .icon-size:hover {
+    box-shadow: 0 0 45px #FF0000;
+  }
+  
+  .contact-page1 {
+    margin-top:20px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .contact-page2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+   
+  .contact-text {
+    margin: 40px;
+    font-size: 20px;
+  }
+  
+  .map-size {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .card-space {
+    margin-top: 60px;
+    margin-bottom: 10px;
+  }
+  
+  .card-width {
+    width: 70%;
+    padding-top: 20px;
+    margin-left: 12vw;
+    text-align: left;
+    font-size: 10px;
+  }
+  
+  .card-width2 {
+    width: 90%;
+    margin-left: 20px;
+    text-align: left;
+    font-size: 20px;
+  }
+  
+  .about-me-padding {
+    padding: 5px;
+  }
+  
+  .Navlink-size {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+  
+  .Navlink-size:hover {
+    text-shadow: 0 0 45px #FF0000;
+  }
+  
+  .title-width {
+    max-width: 140px;
+    font-size: 15px;
+  
+  }
+
+  .title-width2 {
+    max-width: 100px;
+  
+  }
+  
+  .my-photo {
+    position: absolute;
+    margin-top: 30px;
+    width: 70px;
+    height: 80px;
+    object-fit: cover;
+    border: 1px solid black;
+    border-radius: 190px;
+    left:78vw;
+  }
+  
+  .nav-links {
+    text-align: left;
+    font-size: 10px;
+    position: absolute;
+    top: 146px;
+    background-color: rgb(15, 84, 85, 0.9);
+    padding: 10px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 30px;
+    left: 0px;
+  }
+  
+  .menuicon {
+    width: 30px;
+    /* margin-left: 30px; */
+    margin: 16px;
+    padding: 2px;
+    margin-left: 22px;
+    margin-top: 20px;
+    /* padding-left:2px; */
+  
+  }
+  
+  .menuicon:hover {
+    background-color: rgb(240, 128, 128, 0.7);
+    border-radius: 6px;
+    box-shadow: 0 0 45px #FF0000;
+  }
+  
+  .Header {
+    position: absolute;
+    left:30vw;
+    font-size: 45px;
+    top: 7px;
+  }
+  
+  .video-size{
+    max-width: 100%;
+    border:1px solid #021a40;
+  }
+  
+  .Nav {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   background-color: rgb(15, 84, 85, 0.9);
+   margin-left: -10px;
+   padding-bottom: 3px;
+   
+  }
+}
+
+@media (max-width: 360px) {
+  .project-title {
+    font-size: 35px;
+  }
+  
+  .photo-sizes {
+    height: 120px;
+  }
+  
+  .photos-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+    margin: 0px;
+    
+  }
+  
+  .photo-outer-container {
+    margin-bottom: 285px;
+  }
+  .end-size {
+    font-size: 150%;
+  }
+  
+  .end-size2 {
+    font-size: 200%;
+  }
+  .underline-size {
+    opacity: 0.8;
+    width: 40%;
+  }
+  
+  .underline-size2 {
+    opacity: 0.8;
+    width: 80px;
+  }
+  
+  .end-div{
+    position: absolute;
+    left: 24%;
+    bottom: -8300px;
+    text-align: center;
+  }
+  
+  .end-div2{
+    padding-top: 50px;
+    text-align: center;
+  }
+  
+  .title-backing {
+    background-color: rgba(252, 252, 245, 0.9);
+    margin-left: -10%;
+    margin-right: -10%;
+  }
+  
+  .text-backing {
+    background-color: rgba(252, 252, 245, 0.9);
+    margin-left: -10%;
+    margin-right: -10%;
+  }
+  
+  .project-text {
+    font-size: 18px;
+  }
+  
+  .text-backing2 {
+    background-color: rgba(252, 252, 245, 0.9);
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 20px;
+    padding-top:1px;
+    padding-bottom: 30px;
+  }
+  
+  .App {
+    text-align: center;
+  }
+  
+  .Navlink-position {
+    padding-left: 18px;
+    color: lightcoral;
+    text-align: left;
+  }
+  
+  .software-position {
+    font-size: 11px;
+    position: absolute;
+    top: 52px;
+    left: 8px;
+    color: lightcoral;
+  }
+  
+  .icon-size {
+    width: 50px;
+  }
+  
+  .icon-size:hover {
+    box-shadow: 0 0 45px #FF0000;
+  }
+  
+  .contact-page1 {
+    margin-top:20px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .contact-page2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+   
+  .contact-text {
+    margin: 40px;
+    font-size: 20px;
+  }
+  
+  .map-size {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .card-space {
+    margin-top: 60px;
+    margin-bottom: 10px;
+  }
+  
+  .card-width {
+    width: 70%;
+    padding-top: 20px;
+    margin-left: 12vw;
+    text-align: left;
+    font-size: 10px;
+  }
+  
+  .card-width2 {
+    width: 90%;
+    margin-left: 20px;
+    text-align: left;
+    font-size: 20px;
+  }
+  
+  .about-me-padding {
+    padding: 5px;
+  }
+  
+  .Navlink-size {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+  
+  .Navlink-size:hover {
+    text-shadow: 0 0 45px #FF0000;
+  }
+  
+  .title-width {
+    max-width: 140px;
+    font-size: 15px;
+  
+  }
+
+  .title-width2 {
+    max-width: 100px;
+  
+  }
+  
+  .my-photo {
+    position: absolute;
+    margin-top: 30px;
+    width: 70px;
+    height: 80px;
+    object-fit: cover;
+    border: 1px solid black;
+    border-radius: 190px;
+    left:78vw;
+  }
+  
+  .nav-links {
+    text-align: left;
+    font-size: 10px;
+    position: absolute;
+    top: 146px;
+    background-color: rgb(15, 84, 85, 0.9);
+    padding: 10px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 30px;
+    left: 0px;
+  }
+  
+  .menuicon {
+    width: 30px;
+    /* margin-left: 30px; */
+    margin: 16px;
+    padding: 2px;
+    margin-left: 22px;
+    margin-top: 20px;
+    /* padding-left:2px; */
+  
+  }
+  
+  .menuicon:hover {
+    background-color: rgb(240, 128, 128, 0.7);
+    border-radius: 6px;
+    box-shadow: 0 0 45px #FF0000;
+  }
+  
+  .Header {
+    position: absolute;
+    left:29vw;
+    font-size: 42px;
+    top: 14px;
+  }
+  
+  .video-size{
+    max-width: 100%;
+    border:1px solid #021a40;
+  }
+  
+  .Nav {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   background-color: rgb(15, 84, 85, 0.9);
+   margin-left: -10px;
+   padding-bottom: 3px;
+   
+  }
+}
+
+@media (max-width: 320px) {
+  .project-title {
+    font-size: 35px;
+  }
+  
+  .photo-sizes {
+    height: 120px;
+  }
+  
+  .photos-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+    margin: 0px;
+    
+  }
+  
+  .photo-outer-container {
+    margin-bottom: 285px;
+  }
+  .end-size {
+    font-size: 150%;
+  }
+  
+  .end-size2 {
+    font-size: 200%;
+  }
+  .underline-size {
+    opacity: 0.8;
+    width: 40%;
+  }
+  
+  .underline-size2 {
+    opacity: 0.8;
+    width: 80px;
+  }
+  
+  .end-div{
+    position: absolute;
+    left: 22%;
+    bottom: -9450px;
+    text-align: center;
+  }
+  
+  .end-div2{
+    padding-top: 50px;
+    text-align: center;
+  }
+  
+  .title-backing {
+    background-color: rgba(252, 252, 245, 0.9);
+    margin-left: -20%;
+    margin-right: -20%;
+  }
+  
+  .text-backing {
+    background-color: rgba(252, 252, 245, 0.9);
+    margin-left: -10%;
+    margin-right: -10%;
+  }
+  
+  .project-text {
+    font-size: 18px;
+  }
+  
+  .text-backing2 {
+    background-color: rgba(252, 252, 245, 0.9);
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 20px;
+    padding-top:1px;
+    padding-bottom: 30px;
+  }
+  
+  .App {
+    text-align: center;
+  }
+  
+  .Navlink-position {
+    padding-left: 18px;
+    color: lightcoral;
+    text-align: left;
+  }
+  
+  .software-position {
+    font-size: 11px;
+    position: absolute;
+    top: 45px;
+    left: -5px;
+    color: lightcoral;
+  }
+  
+  .icon-size {
+    width: 50px;
+  }
+  
+  .icon-size:hover {
+    box-shadow: 0 0 45px #FF0000;
+  }
+  
+  .contact-page1 {
+    margin-top:20px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .contact-page2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+   
+  .contact-text {
+    margin: 40px;
+    font-size: 20px;
+  }
+  
+  .map-size {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .card-space {
+    margin-top: 60px;
+    margin-bottom: 10px;
+  }
+  
+  .card-width {
+    width: 70%;
+    padding-top: 20px;
+    margin-left: 12vw;
+    text-align: left;
+    font-size: 10px;
+  }
+  
+  .card-width2 {
+    width: 90%;
+    margin-left: 20px;
+    text-align: left;
+    font-size: 20px;
+  }
+  
+  .about-me-padding {
+    padding: 5px;
+  }
+  
+  .Navlink-size {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+  
+  .Navlink-size:hover {
+    text-shadow: 0 0 45px #FF0000;
+  }
+  
+  .title-width {
+    max-width: 120px;
+    font-size: 13px;
+  
+  }
+
+  .title-width2 {
+    max-width: 100px;
+  
+  }
+  
+  .my-photo {
+    position: absolute;
+    margin-top: 32px;
+    width: 60px;
+    height: 70px;
+    object-fit: cover;
+    border: 1px solid black;
+    border-radius: 190px;
+    left:78vw;
+  }
+  
+  .nav-links {
+    text-align: left;
+    font-size: 10px;
+    position: absolute;
+    top: 137px;
+    background-color: rgb(15, 84, 85, 0.9);
+    padding: 10px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 30px;
+    left: 0px;
+  }
+  
+  .menuicon {
+    width: 30px;
+    /* margin-left: 30px; */
+    margin: 16px;
+    padding: 2px;
+    margin-left: 22px;
+    margin-top: 20px;
+    /* padding-left:2px; */
+  
+  }
+  
+  .menuicon:hover {
+    background-color: rgb(240, 128, 128, 0.7);
+    border-radius: 6px;
+    box-shadow: 0 0 45px #FF0000;
+  }
+  
+  .Header {
+    position: absolute;
+    left:25vw;
+    font-size: 42px;
+    top: 10px;
+  }
+  
+  .video-size{
+    max-width: 100%;
+    border:1px solid #021a40;
+  }
+  
+  .Nav {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   background-color: rgb(15, 84, 85, 0.9);
+   margin-left: -15px;
+   padding-bottom: 3px;
+   
+  }
 }

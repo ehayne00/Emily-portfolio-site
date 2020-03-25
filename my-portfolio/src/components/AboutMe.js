@@ -1,4 +1,5 @@
 import React from "react";
+import underline from '../media/floral.svg'
 
 const AboutMe = () => {
   return (
@@ -67,20 +68,20 @@ const AboutMe = () => {
             <li>National Certificate in Dental Nursing</li>
             <li>Surf enthusiast</li>
           </ul>
-          <h3>My proudest amateur photographic creations to date:</h3>
+          <h3>Amateur photographic creations:</h3>
           <div className="photo-outer-container"> 
             <div className="photos-container">
             <img className="photo-sizes" alt="oh no!" src="https://storage.cloud.google.com/my-pics-portfolio/photo1.jpg"/>
-            <img className="photo-sizes" alt="oh no!" src="https://storage.cloud.google.com/my-pics-portfolio/photo2.jpg"/>
+            <img className="photo-sizes" alt="oh no!" src="https://storage.cloud.google.com/my-pics-portfolio/photo9.jpg"/>
             <img className="photo-sizes" alt="oh no!" src="https://storage.cloud.google.com/my-pics-portfolio/photo3.jpg"/>
             <img className="photo-sizes" alt="oh no!" src="https://storage.cloud.google.com/my-pics-portfolio/photo4.jpg"/>
             <img className="photo-sizes" alt="oh no!" src="https://storage.cloud.google.com/my-pics-portfolio/photo5.jpg"/>
             <img className="photo-sizes" alt="oh no!" src="https://storage.cloud.google.com/my-pics-portfolio/photo6.jpg"/>
             <img className="photo-sizes" alt="oh no!" src="https://storage.cloud.google.com/my-pics-portfolio/photo7.jpg"/>
-            <img className="photo-sizes" alt="oh no!" src="https://storage.cloud.google.com/my-pics-portfolio/photo8.jpg"/>
+            
             </div>
             <div className="photos-container">
-            <img className="photo-sizes" alt="oh no!" src="https://storage.cloud.google.com/my-pics-portfolio/photo9.jpg"/>
+            <img className="photo-sizes" alt="oh no!" src="https://storage.cloud.google.com/my-pics-portfolio/photo2.jpg"/>
             <img className="photo-sizes" alt="oh no!" src="https://storage.cloud.google.com/my-pics-portfolio/photo10.jpg"/>
             <img className="photo-sizes" alt="oh no!" src="https://storage.cloud.google.com/my-pics-portfolio/photo11.jpg"/>
             <img className="photo-sizes" alt="oh no!" src="https://storage.cloud.google.com/my-pics-portfolio/photo12.jpg"/>
@@ -96,13 +97,13 @@ const AboutMe = () => {
             <img className="photo-sizes" alt="oh no!" src="https://storage.cloud.google.com/my-pics-portfolio/photo20.jpg"/>
             <img className="photo-sizes" alt="oh no!" src="https://storage.cloud.google.com/my-pics-portfolio/photo21.jpg"/>
             <img className="photo-sizes" alt="oh no!" src="https://storage.cloud.google.com/my-pics-portfolio/photo22.jpg"/>
-            <img className="photo-sizes" alt="oh no!" src="https://storage.cloud.google.com/my-pics-portfolio/photo23.jpg"/>
+            <img className="photo-sizes" alt="oh no!" src="https://storage.cloud.google.com/my-pics-portfolio/photo8.jpg"/>
             <img className="photo-sizes" alt="oh no!" src="https://storage.cloud.google.com/my-pics-portfolio/photo24.jpg"/>
             </div>
             <div className="photos-container">
             <img className="photo-sizes" alt="oh no!" src="https://storage.cloud.google.com/my-pics-portfolio/photo25.jpg"/>
             <img className="photo-sizes" alt="oh no!" src="https://storage.cloud.google.com/my-pics-portfolio/photo26.jpg"/>
-            <img className="photo-sizes" alt="oh no!" src="https://storage.cloud.google.com/my-pics-portfolio/photo27.jpg"/>
+            <img className="photo-sizes" alt="oh no!" src="https://storage.cloud.google.com/my-pics-portfolio/photo70.jpg"/>
             <img className="photo-sizes" alt="oh no!" src="https://storage.cloud.google.com/my-pics-portfolio/photo28.jpg"/>
             <img className="photo-sizes" alt="oh no!" src="https://storage.cloud.google.com/my-pics-portfolio/photo29.jpg"/>
             <img className="photo-sizes" alt="oh no!" src="https://storage.cloud.google.com/my-pics-portfolio/photo30.jpg"/>
@@ -119,8 +120,8 @@ const AboutMe = () => {
             <img className="photo-sizes" alt="oh no!" src="https://storage.cloud.google.com/my-pics-portfolio/photo39.jpg"/>
             </div>
             <div className="photos-container">
-            <img className="photo-sizes" alt="oh no!" src="https://storage.cloud.google.com/my-pics-portfolio/photo40.jpg"/>
-            <img className="photo-sizes" alt="oh no!" src="https://storage.cloud.google.com/my-pics-portfolio/photo41.jpg"/>
+            <img className="photo-sizes" alt="oh no!" src="https://storage.cloud.google.com/my-pics-portfolio/photo72.jpg"/>
+            <img className="photo-sizes" alt="oh no!" src="https://storage.cloud.google.com/my-pics-portfolio/photo71.jpg"/>
             <img className="photo-sizes" alt="oh no!" src="https://storage.cloud.google.com/my-pics-portfolio/photo42.jpg"/>
             <img className="photo-sizes" alt="oh no!" src="https://storage.cloud.google.com/my-pics-portfolio/photo43.jpg"/>
             <img className="photo-sizes" alt="oh no!" src="https://storage.cloud.google.com/my-pics-portfolio/photo44.jpg"/>
@@ -136,6 +137,7 @@ const AboutMe = () => {
             <img className="photo-sizes" alt="oh no!" src="https://storage.cloud.google.com/my-pics-portfolio/photo52.jpg"/>
             <img className="photo-sizes" alt="oh no!" src="https://storage.cloud.google.com/my-pics-portfolio/photo53.jpg"/>
             </div>
+            <div className="photos-container">
             <img className="photo-sizes" alt="oh no!" src="https://storage.cloud.google.com/my-pics-portfolio/photo54.jpg"/>
             <img className="photo-sizes" alt="oh no!" src="https://storage.cloud.google.com/my-pics-portfolio/photo55.jpg"/>
             <img className="photo-sizes" alt="oh no!" src="https://storage.cloud.google.com/my-pics-portfolio/photo56.jpg"/>
@@ -144,8 +146,25 @@ const AboutMe = () => {
             <img className="photo-sizes" alt="oh no!" src="https://storage.cloud.google.com/my-pics-portfolio/photo59.jpg"/>
             <img className="photo-sizes" alt="oh no!" src="https://storage.cloud.google.com/my-pics-portfolio/photo60.jpg"/>
             <img className="photo-sizes" alt="oh no!" src="https://storage.cloud.google.com/my-pics-portfolio/photo61.jpg"/>
+            </div>
+            <div className="photos-container">
+            <img className="photo-sizes" alt="oh no!" src="https://storage.cloud.google.com/my-pics-portfolio/photo62.jpg"/>
+            <img className="photo-sizes" alt="oh no!" src="https://storage.cloud.google.com/my-pics-portfolio/photo63.jpg"/>
+            <img className="photo-sizes" alt="oh no!" src="https://storage.cloud.google.com/my-pics-portfolio/photo64.jpg"/>
+            <img className="photo-sizes" alt="oh no!" src="https://storage.cloud.google.com/my-pics-portfolio/photo65.jpg"/>
+            <img className="photo-sizes" alt="oh no!" src="https://storage.cloud.google.com/my-pics-portfolio/photo66.jpg"/>
+            <img className="photo-sizes" alt="oh no!" src="https://storage.cloud.google.com/my-pics-portfolio/photo67.jpg"/>
+            
+            <img className="photo-sizes" alt="oh no!" src="https://storage.cloud.google.com/my-pics-portfolio/photo68.jpg"/>
+            <img className="photo-sizes" alt="oh no!" src="https://storage.cloud.google.com/my-pics-portfolio/photo69.jpg"/>
+            </div>
+           
             
           </div>
+          <div className="end-div">
+              <p className="text-3 end-size">THE END</p>
+              <img className="underline-size" alt="oh no!" src={underline} />
+            </div>
         </div>
       </div>
     </div>

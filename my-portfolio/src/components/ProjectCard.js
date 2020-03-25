@@ -3,16 +3,16 @@ import React from "react";
 const ProjectCard = ({ project }) => {
   return (
     <div className="card-space">
-      <div className="title-backing">
-      <h1 className="text-3"><u>{project.title}</u> - {project.date}</h1>
-      </div>
+      
+      <p className="text-3 about-me-padding project-title"><u>{project.title}</u> - {project.date}</p>
+      
       <video className="video-size" controls>
         <source src={project.demo} type="video/mp4" />
       </video>
-      <div className="card-width text-1 text-backing">
-        <h1>DESCRIPTION: {project.description}</h1>
-        <h1>LANGUAGES/TECHNOLOGIES: {project.languages}</h1>
-        <h1>INSPIRATION: {project.inspiration}</h1>
+      <div className="card-width text-1">
+        <p className="project-text">DESCRIPTION: {project.description}</p>
+        <p className="project-text">LANGUAGES/TECHNOLOGIES: {project.languages}</p>
+        <p className="project-text">INSPIRATION: {project.inspiration}</p>
       </div>
     </div>
   );
