@@ -66,7 +66,7 @@ const AboutMe = () => {
             <li>PADI open water diver</li>
             <li>Diploma in Dental Hygiene (UCL)</li>
             <li>National Certificate in Dental Nursing</li>
-            <li>Surf enthusiast</li>
+            <li>Non-pro surfer</li>
           </ul>
           <h3>Amateur photographic creations:</h3>
           <div className="photo-outer-container"> 
