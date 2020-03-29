@@ -4,7 +4,7 @@ const ProjectCard = ({ project }) => {
   return (
     <div className="card-space">
       <p className="text-3 about-me-padding project-title">
-        <u>{project.title}</u> - {project.date}
+        <u>{project.title}</u> - {project.date} This has changed
       </p>
 
       {/* <video className="video-size" controls>
