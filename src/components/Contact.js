@@ -7,8 +7,8 @@ import github from "../media/Github-icon.png";
 const Contact = () => {
   return (
     <div>
-      <h2 className="Header text-5">CONTACT</h2>
-      <div className="contact-page1">
+      <h2 className="Header text-5 animated fadeInDown">CONTACT</h2>
+      <div className="contact-page1 animated fadeInUp delay-1s">
         <div className="contact-page2">
           <a href="https://linkedin.com/in/emily-violet-haynes-519279182">
             <img className="icon-size squarish" alt="oh no!" src={linkedin} />
