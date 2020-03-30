@@ -7,12 +7,9 @@ const ProjectCard = ({ project }) => {
         <u>{project.title}</u> - {project.date}
       </p>
 
-      {/* <video className="video-size" controls>
-        <source src={project.demo} type="video/mp4" />
-      </video> */}
-
       <iframe
       className="video-size"
+        title={project.title}
         src={project.demo}
         frameborder="0"
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
