@@ -4,7 +4,7 @@ const ProjectCard = ({ project }) => {
   return (
     <div className="card-space">
       <p className="text-3 about-me-padding project-title">
-        <u>{project.title}</u> - {project.date} This has changed
+        <u>{project.title}</u> - {project.date}
       </p>
 
       {/* <video className="video-size" controls>
@@ -12,9 +12,8 @@ const ProjectCard = ({ project }) => {
       </video> */}
 
       <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/Fh0PEm7sW94"
+      className="video-size"
+        src={project.demo}
         frameborder="0"
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen

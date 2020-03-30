@@ -19,7 +19,7 @@ class NavBar extends React.Component {
     render () {
     return (
         <div className="Nav">
-            <h2 className="title-width text-2">Emily Violet Haynes Portfolio</h2>
+            <h2 className="title-width text-2 animated fadeInLeft delay-1s">Emily Violet Haynes Portfolio</h2>
             <p className="text-2 title-width2 software-position">Software Engineer</p>
             <img className="my-photo" alt="Oh no!" src={photo}/>
             <img onClick={this.toggleSidebarShowing}className="menuicon" alt="oh no!" src={menuicon}/>
