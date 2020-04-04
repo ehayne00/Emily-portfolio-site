@@ -7,7 +7,7 @@ const AboutMe = () => {
     <div>
       <h2 className="Header text-5 animated fadeInDown">ABOUT ME</h2>
       <div className="text-backing2 about-me-padding text-1 animated fadeInUp delay-1s">
-        <h2 className="about-me-padding">'Impulsive Accomplisher'</h2>
+        <h2 className="about-me-padding new-text-size">'Impulsive Accomplisher'</h2>
         <div className="card-width2">
           <p>My friends often laugh when I tell them what next.</p>
           <p>
