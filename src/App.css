@@ -797,7 +797,7 @@ border-radius: 48px;
     text-align: left;
     font-size: 10px;
     position: absolute;
-    top: 209px;
+    top: 208px;
     background-color: rgb(15, 84, 85, 0.9);
     padding: 10px;
     padding-left: 20px;
@@ -972,10 +972,10 @@ border-radius: 48px;
   }
   
   .software-position {
-    font-size: 11px;
+    font-size: 10px;
     position: absolute;
-    top: 52px;
-    left: 8px;
+    top: -2px;
+    left: -15px;
     color: lightcoral;
   }
   
@@ -1043,7 +1043,7 @@ border-radius: 48px;
   }
   
   .Navlink-size {
-    font-size: 22px;
+    font-size: 20px;
     margin-bottom: 10px;
   }
   
@@ -1052,8 +1052,9 @@ border-radius: 48px;
   }
   
   .title-width {
-    max-width: 140px;
-    font-size: 15px;
+    max-width: 340px;
+    font-size: 10px;
+    margin-left: 30vw;
   
   }
 
@@ -1064,20 +1065,20 @@ border-radius: 48px;
   
   .my-photo {
     position: absolute;
-    margin-top: 20px;
-    width: 85px;
-    height: 100px;
+    margin-top: 12px;
+    width: 70px;
+    height: 78px;
     object-fit: cover;
     border: 1px solid black;
     border-radius: 150px;
-    left:76vw;
+    left:80vw;
   }
   
   .nav-links {
     text-align: left;
     font-size: 10px;
     position: absolute;
-    top: 146px;
+    top: 100px;
     background-color: rgb(15, 84, 85, 0.9);
     padding: 10px;
     padding-left: 20px;
@@ -1105,9 +1106,9 @@ border-radius: 48px;
   
   .Header {
     position: absolute;
-    left:30vw;
+    left:29vw;
     font-size: 42px;
-    top: 10px;
+    top: -5px;
   }
   
   .video-size{
@@ -1235,10 +1236,10 @@ border-radius: 48px;
   }
   
   .software-position {
-    font-size: 11px;
+    font-size: 10px;
     position: absolute;
-    top: 52px;
-    left: 8px;
+    top: -2px;
+    left: -15px;
     color: lightcoral;
   }
   
@@ -1315,8 +1316,9 @@ border-radius: 48px;
   }
   
   .title-width {
-    max-width: 140px;
-    font-size: 15px;
+    max-width: 340px;
+    font-size: 10px;
+    margin-left: 30vw;
   
   }
 
@@ -1327,20 +1329,20 @@ border-radius: 48px;
   
   .my-photo {
     position: absolute;
-    margin-top: 20px;
-    width: 85px;
-    height: 100px;
+    margin-top: 12px;
+    width: 70px;
+    height: 78px;
     object-fit: cover;
     border: 1px solid black;
     border-radius: 150px;
-    left:76vw;
+    left:80vw;
   }
   
   .nav-links {
     text-align: left;
     font-size: 10px;
     position: absolute;
-    top: 146px;
+    top: 100px;
     background-color: rgb(15, 84, 85, 0.9);
     padding: 10px;
     padding-left: 20px;
@@ -1368,9 +1370,9 @@ border-radius: 48px;
   
   .Header {
     position: absolute;
-    left:30vw;
-    font-size: 45px;
-    top: 7px;
+    left:29vw;
+    font-size: 42px;
+    top: -5px;
   }
   
   .video-size{
@@ -1510,10 +1512,10 @@ border-radius: 48px;
   }
   
   .software-position {
-    font-size: 11px;
+    font-size: 10px;
     position: absolute;
-    top: 52px;
-    left: 8px;
+    top: -2px;
+    left: -15px;
     color: lightcoral;
   }
   
@@ -1573,7 +1575,7 @@ border-radius: 48px;
   }
   
   .Navlink-size {
-    font-size: 22px;
+    font-size: 20px;
     margin-bottom: 10px;
   }
   
@@ -1582,8 +1584,9 @@ border-radius: 48px;
   }
   
   .title-width {
-    max-width: 140px;
-    font-size: 15px;
+    max-width: 340px;
+    font-size: 10px;
+    margin-left: 30vw;
   
   }
 
@@ -1594,20 +1597,20 @@ border-radius: 48px;
   
   .my-photo {
     position: absolute;
-    margin-top: 30px;
+    margin-top: 12px;
     width: 70px;
-    height: 80px;
+    height: 78px;
     object-fit: cover;
     border: 1px solid black;
-    border-radius: 190px;
-    left:78vw;
+    border-radius: 150px;
+    left:80vw;
   }
   
   .nav-links {
     text-align: left;
     font-size: 10px;
     position: absolute;
-    top: 146px;
+    top: 100px;
     background-color: rgb(15, 84, 85, 0.9);
     padding: 10px;
     padding-left: 20px;
@@ -1635,9 +1638,9 @@ border-radius: 48px;
   
   .Header {
     position: absolute;
-    left:30vw;
-    font-size: 38px;
-    top: 17px;
+    left:28vw;
+    font-size: 42px;
+    top: -5px;
   }
   
   .video-size{
@@ -1774,10 +1777,10 @@ border-radius: 48px;
   }
   
   .software-position {
-    font-size: 11px;
+    font-size: 10px;
     position: absolute;
-    top: 52px;
-    left: 8px;
+    top: -2px;
+    left: -15px;
     color: lightcoral;
   }
   
@@ -1837,7 +1840,7 @@ border-radius: 48px;
   }
   
   .Navlink-size {
-    font-size: 22px;
+    font-size: 20px;
     margin-bottom: 10px;
   }
   
@@ -1846,8 +1849,9 @@ border-radius: 48px;
   }
   
   .title-width {
-    max-width: 140px;
-    font-size: 15px;
+    max-width: 340px;
+    font-size: 10px;
+    margin-left: 29vw;
   
   }
 
@@ -1858,20 +1862,20 @@ border-radius: 48px;
   
   .my-photo {
     position: absolute;
-    margin-top: 30px;
-    width: 70px;
-    height: 80px;
+    margin-top: 15px;
+    width: 65px;
+    height: 70px;
     object-fit: cover;
     border: 1px solid black;
-    border-radius: 190px;
-    left:78vw;
+    border-radius: 150px;
+    left:80vw;
   }
   
   .nav-links {
     text-align: left;
     font-size: 10px;
     position: absolute;
-    top: 146px;
+    top: 100px;
     background-color: rgb(15, 84, 85, 0.9);
     padding: 10px;
     padding-left: 20px;
@@ -1899,9 +1903,9 @@ border-radius: 48px;
   
   .Header {
     position: absolute;
-    left:29vw;
+    left:27vw;
     font-size: 42px;
-    top: 14px;
+    top: -5px;
   }
   
   .video-size{
@@ -2038,10 +2042,10 @@ border-radius: 48px;
   }
   
   .software-position {
-    font-size: 11px;
+    font-size: 10px;
     position: absolute;
-    top: 45px;
-    left: -5px;
+    top: -2px;
+    left: -15px;
     color: lightcoral;
   }
   
@@ -2101,7 +2105,7 @@ border-radius: 48px;
   }
   
   .Navlink-size {
-    font-size: 22px;
+    font-size: 20px;
     margin-bottom: 10px;
   }
   
@@ -2110,8 +2114,9 @@ border-radius: 48px;
   }
   
   .title-width {
-    max-width: 120px;
-    font-size: 13px;
+    max-width: 340px;
+    font-size: 10px;
+    margin-left: 29vw;
   
   }
 
@@ -2122,20 +2127,20 @@ border-radius: 48px;
   
   .my-photo {
     position: absolute;
-    margin-top: 32px;
+    margin-top: 18px;
     width: 60px;
-    height: 70px;
+    height: 64px;
     object-fit: cover;
     border: 1px solid black;
-    border-radius: 190px;
-    left:78vw;
+    border-radius: 150px;
+    left:80vw;
   }
   
   .nav-links {
     text-align: left;
     font-size: 10px;
     position: absolute;
-    top: 137px;
+    top: 100px;
     background-color: rgb(15, 84, 85, 0.9);
     padding: 10px;
     padding-left: 20px;
@@ -2163,9 +2168,9 @@ border-radius: 48px;
   
   .Header {
     position: absolute;
-    left:25vw;
-    font-size: 42px;
-    top: 10px;
+    left:26vw;
+    font-size: 41px;
+    top: -5px;
   }
   
   .video-size{
