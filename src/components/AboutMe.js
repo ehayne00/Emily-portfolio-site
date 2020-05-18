@@ -7,7 +7,9 @@ const AboutMe = () => {
     <div>
       <h2 className="Header text-5 animated fadeInDown">ABOUT ME</h2>
       <div className="text-backing2 about-me-padding text-1 animated fadeInUp delay-1s">
-        <h2 className="about-me-padding new-text-size">'Impulsive Accomplisher'</h2>
+        <h2 className="about-me-padding new-text-size">
+          'Impulsive Accomplisher'
+        </h2>
         <div className="card-width2">
           <p>My friends often laugh when I tell them what next.</p>
           <p>
@@ -31,16 +33,14 @@ const AboutMe = () => {
             photography skills and try out different outdoor activities.
           </p>
           <p>
-            Having intensely learnt and completed the Software Engineering
-            Immersive curriculum at Flatiron School London, I am proficient as a
-            full stack software engineer with main frameworks of Rails and
-            React, languages Ruby and JavaScript (and other skills, below), and
-            constantly adding to my skills and portfolio. I am actively seeking
-            a junior software engineering role (full stack/ front end/ backend)
-            and am excited to gain experience in the field. I have just started
-            an Advanced CSS course to enhance my proficiency in CSS/SaSS. My
-            next intentions are to learn Python and Node.js, as well as any
-            required learning to help me excel in my career.
+            In early March 2020, I completed the Software Engineering Immersive
+            curriculum at Flatiron School London, whose curriculum largely
+            revolved around React.js/JavaScript frontend, Ruby/Rails backend
+            and versions of SQL, as well as RESTful API concepts, utilising full
+            CRUD actions and use of hooks and Redux. Since, I have continued to
+            enhance my skill set and began some contract work as a web developer
+            with Engaging Tech, who’s stack involves React.js, node.js, mongoDB,
+            Redux-sagas, Apollo graphQL.
           </p>
           <h3>Current and ever-growing tech skillset:</h3>
           <ul>
@@ -51,11 +51,13 @@ const AboutMe = () => {
             <li>ES6</li>
             <li>React.js</li>
             <li>Hooks</li>
-            <li>Redux</li>
-            <li>SQL - SQLite, Postgresql</li>
+            <li>Redux and Redux-Sagas</li>
+            <li>Mongo DB</li>
+            <li>SQL - SQLite3, mySQL, Postgresql, Apollo graphQL</li>
             <li>HTML/HTML5</li>
-            <li>CSS/SaSS/Media queries</li>
-            <li>Preparatory: Kanban, Keynote</li>
+            <li>CSS/Media queries</li>
+            <li>Jira, Confluence, Atlassian</li>
+            <li>Kanban, Trello, Keynote</li>
           </ul>
           <h3>
             List of impulsive and less-impulsive achievements (in no particular
